@@ -1,0 +1,14 @@
+[package]
+name = "renderer"
+version = "0.1.0"
+authors = ["felixgb <felixgbowman@gmail.com>"]
+
+[dependencies]
+
+websocket = "0.17.1"
+nalgebra = "0.10.*"
+rand = "0.3"
+flate2 = { version = "0.2", features = ["zlib"], default-features = false }
+
+obj_parser = { git = "https://github.com/felixgb/obj-parser.git" }
+bresenham = { git = "https://github.com/mbr/bresenham-rs.git" }
