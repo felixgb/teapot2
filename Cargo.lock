@@ -2,7 +2,6 @@
 name = "renderer"
 version = "0.1.0"
 dependencies = [
- "bresenham 0.1.1 (git+https://github.com/mbr/bresenham-rs.git)",
  "flate2 0.2.14 (registry+https://github.com/rust-lang/crates.io-index)",
  "nalgebra 0.10.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "obj_parser 0.1.0 (git+https://github.com/felixgb/obj-parser.git)",
@@ -14,11 +13,6 @@ dependencies = [
 name = "bitflags"
 version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-
-[[package]]
-name = "bresenham"
-version = "0.1.1"
-source = "git+https://github.com/mbr/bresenham-rs.git#608567a312b9a0b64ae75734683b416a61e33ba3"
 
 [[package]]
 name = "byteorder"

@@ -28,8 +28,8 @@ fn main() {
 
     // let finger = parse_file_to_object("finger.obj").unwrap();
     let head = parse_file_to_object("african_head.obj").unwrap();
-    // let tris = get_triangles(head);
-    let tris = noise::make_map();
+    let tris = get_triangles(head);
+    // let tris = noise::make_map();
     
     let (tx, rx): (mpsc::Sender<ScreenBuf>, mpsc::Receiver<ScreenBuf>) = mpsc::channel();
     let (inp_tx, inp_rx): (mpsc::Sender<InputBuf>, mpsc::Receiver<InputBuf>) = mpsc::channel();

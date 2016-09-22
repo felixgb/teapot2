@@ -11,4 +11,3 @@ rand = "0.3"
 flate2 = { version = "0.2", features = ["zlib"], default-features = false }
 
 obj_parser = { git = "https://github.com/felixgb/obj-parser.git" }
-bresenham = { git = "https://github.com/mbr/bresenham-rs.git" }
