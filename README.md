@@ -1,7 +1,7 @@
 # My own 3d graphics drawing API
 
 Runs a rust websocket server (rust code in src). The user interface is javascript that decompresses the images from the 
-rust server and sends back keyboard innput.
+rust server and sends back keyboard input.
 
 ## Not working:
 - Frustum culling does not really work, yet
